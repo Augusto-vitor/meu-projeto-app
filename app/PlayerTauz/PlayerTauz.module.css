@@ -1,0 +1,16 @@
+.title {
+    height: 50px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+.rap {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-image: url("/");
+    color: rgb(243, 5, 5);
+    color-scheme: initial;
+}

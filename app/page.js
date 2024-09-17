@@ -3,93 +3,9 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <div> <h1 className={styles.title} >Rap Geek</h1>
+    <p className={styles.p}>O Rap Geek, também chamado de Nerdcore Brasileiro, Música Geek, Rap de anime, Rap Nerd, entre outras nomenclaturas, é um subgénero do rap focado no universo geek. É responsável por bilhões de visualizações e reproduções em plataformas digitais de streaming, tendo seu maior enfoque no Youtube, porém contando com Spotify, Deezer, entre outras.</p>
+    <p className={styles.p2}>O gênero, o qual teve seu início nos Estados Unidos, apareceu pela primeira vez no Brasil por meio do artista Flick com músicas baseadas em Dragon Ball. Contudo, o gênero conquistou sua popularidade por conta do artista Player Tauz e do grupo 7 Minutoz, sendo estes as maiores referências musicais do estilo por volta de 2014 até 2019. Durante este período, o estilo musical presente no Rap predominava não somente nos maiores artistas, como nos emergentes cantores e compositores destes anos. A importância destes artistas era tanta que estes participaram de grandes programas de TV do Brasil, como por exemplo o Programa do Raul Gil e o Domingão do Faustão.</p>
+    </div>
   );
 }
